@@ -1,0 +1,18 @@
+{
+  "checked_observations": 145,
+  "errors": [],
+  "checkpoints": {
+    "checkpoint-0008": {
+      "changed_tensors": 64,
+      "max_abs_delta": 0.0007374795386567712
+    },
+    "checkpoint-0016": {
+      "changed_tensors": 64,
+      "max_abs_delta": 0.0013061879435554147
+    },
+    "checkpoint-0024": {
+      "changed_tensors": 64,
+      "max_abs_delta": 0.0019412144320085645
+    }
+  }
+}

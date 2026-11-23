@@ -1,0 +1,12 @@
+test_empty_response_has_no_fabricated_last_token (test_core.DefinitionsTest.test_empty_response_has_no_fabricated_last_token) ... ok
+test_last_content_position_excludes_eos (test_core.DefinitionsTest.test_last_content_position_excludes_eos) ... ok
+test_leave_one_out_baseline_excludes_current_sample (test_core.DefinitionsTest.test_leave_one_out_baseline_excludes_current_sample) ... ok
+test_reward_is_exact_user_objective (test_core.DefinitionsTest.test_reward_is_exact_user_objective) ... ok
+test_truncation_is_not_a_stop (test_core.DefinitionsTest.test_truncation_is_not_a_stop) ... ok
+test_causal_shift_and_action_mask (test_policy_math.PolicyMathTest.test_causal_shift_and_action_mask) ... ok
+test_leave_one_out_score_gradient_matches_exact_expected_reward (test_policy_math.PolicyMathTest.test_leave_one_out_score_gradient_matches_exact_expected_reward) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.022s
+
+OK

@@ -1,0 +1,16 @@
+{
+  "dataset": "nvidia/Nemotron-Agentic-v1",
+  "revision": "650d590978ca35c8f1ecea2faf136e5fac421b62",
+  "subset": "interactive_agent",
+  "license": "CC-BY-4.0",
+  "url": "https://huggingface.co/datasets/nvidia/Nemotron-Agentic-v1/resolve/650d590978ca35c8f1ecea2faf136e5fac421b62/data/interactive_agent.jsonl",
+  "downloaded_rows": 256,
+  "user_turn_counts": {
+    "1": 75,
+    "6": 7,
+    "2": 83,
+    "4": 22,
+    "3": 61,
+    "5": 8
+  }
+}

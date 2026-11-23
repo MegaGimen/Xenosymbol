@@ -1,0 +1,115 @@
+{
+  "run": "runs/remote/runs/trajectory-main-01",
+  "lambda": 0.002,
+  "groups": {
+    "control_empty@0": {
+      "n": 4,
+      "objective": 0.18608465790748596,
+      "distance": 0.18608465790748596,
+      "pre_distance": 0.1105705052614212,
+      "message_tokens": 0,
+      "original_tokens": 56.25,
+      "mean_per_prompt_length_ratio": 0.0,
+      "total_token_ratio": 0.0,
+      "original_objective": 0.1125,
+      "exact_output_match_rate": 0
+    },
+    "control_mismatched@0": {
+      "n": 4,
+      "objective": 0.2983377754688263,
+      "distance": 0.1858377754688263,
+      "pre_distance": 0.05176076292991638,
+      "message_tokens": 56.25,
+      "original_tokens": 56.25,
+      "mean_per_prompt_length_ratio": 1.0633347059900122,
+      "total_token_ratio": 1.0,
+      "original_objective": 0.1125,
+      "exact_output_match_rate": 0
+    },
+    "test_best@0": {
+      "n": 4,
+      "objective": 0.18751227378845214,
+      "distance": 0.06751227378845215,
+      "pre_distance": 0.0037279874086380005,
+      "message_tokens": 60,
+      "original_tokens": 72,
+      "mean_per_prompt_length_ratio": 0.8171851432880844,
+      "total_token_ratio": 0.8333333333333334,
+      "original_objective": 0.14400000000000002,
+      "exact_output_match_rate": 0.25
+    },
+    "test_initial@0": {
+      "n": 4,
+      "objective": 0.18751227378845214,
+      "distance": 0.06751227378845215,
+      "pre_distance": 0.0037279874086380005,
+      "message_tokens": 60,
+      "original_tokens": 72,
+      "mean_per_prompt_length_ratio": 0.8171851432880844,
+      "total_token_ratio": 0.8333333333333334,
+      "original_objective": 0.14400000000000002,
+      "exact_output_match_rate": 0.25
+    },
+    "validation@0": {
+      "n": 4,
+      "objective": 0.10931721007823944,
+      "distance": 0.01581721007823944,
+      "pre_distance": 0.002993181347846985,
+      "message_tokens": 46.75,
+      "original_tokens": 56.25,
+      "mean_per_prompt_length_ratio": 0.8453055141579732,
+      "total_token_ratio": 0.8311111111111111,
+      "original_objective": 0.1125,
+      "exact_output_match_rate": 0.5
+    },
+    "validation@8": {
+      "n": 4,
+      "objective": 0.11120332217216491,
+      "distance": 0.020203322172164917,
+      "pre_distance": 0.004484996199607849,
+      "message_tokens": 45.5,
+      "original_tokens": 56.25,
+      "mean_per_prompt_length_ratio": 0.8247454048683557,
+      "total_token_ratio": 0.8088888888888889,
+      "original_objective": 0.1125,
+      "exact_output_match_rate": 0.5
+    },
+    "validation@16": {
+      "n": 4,
+      "objective": 0.11120332217216491,
+      "distance": 0.020203322172164917,
+      "pre_distance": 0.004484996199607849,
+      "message_tokens": 45.5,
+      "original_tokens": 56.25,
+      "mean_per_prompt_length_ratio": 0.8247454048683557,
+      "total_token_ratio": 0.8088888888888889,
+      "original_objective": 0.1125,
+      "exact_output_match_rate": 0.5
+    }
+  },
+  "paired_test": {
+    "reward": {
+      "mean_best_minus_initial": 0.0,
+      "paired_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "distance": {
+      "mean_best_minus_initial": 0.0,
+      "paired_bootstrap_95_percent_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "length": {
+      "mean_best_minus_initial": 0,
+      "paired_bootstrap_95_percent_interval": [
+        0,
+        0
+      ]
+    }
+  },
+  "uncertainty_note": "Only 4 test tasks; intervals are exploratory, not evidence of broad language generalization.",
+  "selection_note": "Selected checkpoint is the initialization itself. Identical test outcomes and zero paired intervals do not demonstrate learning or perfect task performance."
+}

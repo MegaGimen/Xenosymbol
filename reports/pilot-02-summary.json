@@ -1,0 +1,42 @@
+{
+  "run": "runs/remote/runs/pilot-02",
+  "lambda": 0.005,
+  "groups": {
+    "validation@0": {
+      "n": 4,
+      "objective": 0.23103894650936127,
+      "distance": 0.16478894650936127,
+      "pre_distance": 0.16235414147377014,
+      "message_tokens": 13.25,
+      "original_tokens": 27.75,
+      "mean_per_prompt_length_ratio": 0.4532507183908046,
+      "total_token_ratio": 0.4774774774774775,
+      "original_objective": 0.13875,
+      "exact_output_match_rate": 0.75
+    },
+    "validation@4": {
+      "n": 4,
+      "objective": 0.23103894650936127,
+      "distance": 0.16478894650936127,
+      "pre_distance": 0.16235414147377014,
+      "message_tokens": 13.25,
+      "original_tokens": 27.75,
+      "mean_per_prompt_length_ratio": 0.4532507183908046,
+      "total_token_ratio": 0.4774774774774775,
+      "original_objective": 0.13875,
+      "exact_output_match_rate": 0.75
+    },
+    "validation@8": {
+      "n": 4,
+      "objective": 0.18883069694042207,
+      "distance": 0.11758069694042206,
+      "pre_distance": 0.13955529034137726,
+      "message_tokens": 14.25,
+      "original_tokens": 27.75,
+      "mean_per_prompt_length_ratio": 0.48658405172413793,
+      "total_token_ratio": 0.5135135135135135,
+      "original_objective": 0.13875,
+      "exact_output_match_rate": 0.5
+    }
+  }
+}

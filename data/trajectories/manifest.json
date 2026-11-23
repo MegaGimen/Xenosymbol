@@ -1,0 +1,209 @@
+{
+  "source": {
+    "dataset": "nvidia/Nemotron-Agentic-v1",
+    "revision": "650d590978ca35c8f1ecea2faf136e5fac421b62",
+    "subset": "interactive_agent",
+    "license": "CC-BY-4.0",
+    "url": "https://huggingface.co/datasets/nvidia/Nemotron-Agentic-v1/resolve/650d590978ca35c8f1ecea2faf136e5fac421b62/data/interactive_agent.jsonl",
+    "downloaded_rows": 256,
+    "user_turn_counts": {
+      "1": 75,
+      "6": 7,
+      "2": 83,
+      "4": 22,
+      "3": 61,
+      "5": 8
+    }
+  },
+  "selected_trajectories": {
+    "train": [
+      "9392aa3e-51f5-4e3d-8129-2060b7de25d0",
+      "4e26493b-9f8c-4c8e-9a85-899370c4d7ca",
+      "033487b5-4482-4741-96d8-af9e73549062",
+      "66a28a5d-5257-478c-ba42-3f8e05756770",
+      "b3bcf371-463c-49e4-b0c6-640cb675fc83",
+      "85f1984e-37a4-4362-bc07-1e41359832f7",
+      "15be6585-6b3a-4c6a-8ae7-8a38cccf4fd0",
+      "6a8beb73-f7f7-470e-b42c-387552ed58d4",
+      "68a71b98-0c2a-428b-8343-4dde041b650a",
+      "ad156be9-cc8c-44f8-aadc-a79aeebfa2d2",
+      "50aeacff-763e-4104-a517-5e14331ecde8",
+      "f59c422d-9cc3-4dad-b8bb-3042b5f298e8",
+      "66c9b614-4866-44c8-9eb5-52605195ad78",
+      "973f3a85-43c1-40a7-b790-d5ae01f776a2",
+      "21665b9e-a49f-4c9e-9e30-a1e76a7ca947",
+      "c6377bdd-5d5b-4217-a69a-4d596d60341d"
+    ],
+    "validation": [
+      "099444d2-a244-47d0-b9fa-f8b6c636b72f",
+      "0005d669-8008-4c1f-ab88-428a885a8f30",
+      "4c80ee21-b40b-4ab1-a558-d999868c86fb",
+      "ca08e7eb-cb25-4556-a20e-c9ad7c3d1ad6"
+    ],
+    "test": [
+      "99d24a88-51d8-43ef-b0eb-3efbb3f2263c",
+      "69d20d25-b3f5-44b2-919a-92aef98a69bb",
+      "a53f1e91-0b72-4167-953e-b130e8af9797",
+      "b4375600-97f0-4ff3-ab68-7f7e509a6e49"
+    ]
+  },
+  "available_candidates": 79,
+  "rejections": {
+    "no_mid_user_after_tool": 177
+  },
+  "settings": {
+    "root": "data/trajectories",
+    "model": "/workspace/model_nf4_native",
+    "max_input_tokens": 6500,
+    "train": 16,
+    "validation": 4,
+    "test": 4
+  },
+  "policy": "one cut per trajectory; full prefix and tools; no future messages; no output-based selection",
+  "selected_lengths": [
+    {
+      "id": "9392aa3e-51f5-4e3d-8129-2060b7de25d0-turn-5",
+      "sender": 3171,
+      "receiver": 3225,
+      "target": 51
+    },
+    {
+      "id": "4e26493b-9f8c-4c8e-9a85-899370c4d7ca-turn-7",
+      "sender": 3349,
+      "receiver": 3401,
+      "target": 57
+    },
+    {
+      "id": "033487b5-4482-4741-96d8-af9e73549062-turn-5",
+      "sender": 3100,
+      "receiver": 3164,
+      "target": 45
+    },
+    {
+      "id": "66a28a5d-5257-478c-ba42-3f8e05756770-turn-11",
+      "sender": 3634,
+      "receiver": 3621,
+      "target": 43
+    },
+    {
+      "id": "b3bcf371-463c-49e4-b0c6-640cb675fc83-turn-5",
+      "sender": 3132,
+      "receiver": 3189,
+      "target": 53
+    },
+    {
+      "id": "85f1984e-37a4-4362-bc07-1e41359832f7-turn-9",
+      "sender": 3916,
+      "receiver": 3956,
+      "target": 77
+    },
+    {
+      "id": "15be6585-6b3a-4c6a-8ae7-8a38cccf4fd0-turn-13",
+      "sender": 3907,
+      "receiver": 3808,
+      "target": 29
+    },
+    {
+      "id": "6a8beb73-f7f7-470e-b42c-387552ed58d4-turn-7",
+      "sender": 3759,
+      "receiver": 3801,
+      "target": 151
+    },
+    {
+      "id": "68a71b98-0c2a-428b-8343-4dde041b650a-turn-9",
+      "sender": 3904,
+      "receiver": 3903,
+      "target": 95
+    },
+    {
+      "id": "ad156be9-cc8c-44f8-aadc-a79aeebfa2d2-turn-11",
+      "sender": 3914,
+      "receiver": 3824,
+      "target": 42
+    },
+    {
+      "id": "50aeacff-763e-4104-a517-5e14331ecde8-turn-9",
+      "sender": 3623,
+      "receiver": 3600,
+      "target": 59
+    },
+    {
+      "id": "f59c422d-9cc3-4dad-b8bb-3042b5f298e8-turn-9",
+      "sender": 3495,
+      "receiver": 3504,
+      "target": 55
+    },
+    {
+      "id": "66c9b614-4866-44c8-9eb5-52605195ad78-turn-9",
+      "sender": 3568,
+      "receiver": 3549,
+      "target": 93
+    },
+    {
+      "id": "973f3a85-43c1-40a7-b790-d5ae01f776a2-turn-7",
+      "sender": 3727,
+      "receiver": 3767,
+      "target": 124
+    },
+    {
+      "id": "21665b9e-a49f-4c9e-9e30-a1e76a7ca947-turn-5",
+      "sender": 3431,
+      "receiver": 3486,
+      "target": 127
+    },
+    {
+      "id": "c6377bdd-5d5b-4217-a69a-4d596d60341d-turn-7",
+      "sender": 3524,
+      "receiver": 3575,
+      "target": 76
+    },
+    {
+      "id": "099444d2-a244-47d0-b9fa-f8b6c636b72f-turn-7",
+      "sender": 3278,
+      "receiver": 3342,
+      "target": 66
+    },
+    {
+      "id": "0005d669-8008-4c1f-ab88-428a885a8f30-turn-11",
+      "sender": 3612,
+      "receiver": 3530,
+      "target": 38
+    },
+    {
+      "id": "4c80ee21-b40b-4ab1-a558-d999868c86fb-turn-7",
+      "sender": 3354,
+      "receiver": 3402,
+      "target": 60
+    },
+    {
+      "id": "ca08e7eb-cb25-4556-a20e-c9ad7c3d1ad6-turn-13",
+      "sender": 4122,
+      "receiver": 4037,
+      "target": 61
+    },
+    {
+      "id": "99d24a88-51d8-43ef-b0eb-3efbb3f2263c-turn-5",
+      "sender": 3157,
+      "receiver": 3218,
+      "target": 68
+    },
+    {
+      "id": "69d20d25-b3f5-44b2-919a-92aef98a69bb-turn-5",
+      "sender": 3190,
+      "receiver": 3242,
+      "target": 40
+    },
+    {
+      "id": "a53f1e91-0b72-4167-953e-b130e8af9797-turn-7",
+      "sender": 3470,
+      "receiver": 3524,
+      "target": 102
+    },
+    {
+      "id": "b4375600-97f0-4ff3-ab68-7f7e509a6e49-turn-5",
+      "sender": 3395,
+      "receiver": 3449,
+      "target": 78
+    }
+  ]
+}

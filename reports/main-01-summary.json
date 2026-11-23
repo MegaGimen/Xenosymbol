@@ -1,0 +1,30 @@
+{
+  "run": "runs/remote/runs/main-01",
+  "lambda": 0.005,
+  "groups": {
+    "validation@0": {
+      "n": 8,
+      "objective": 0.22938551962375642,
+      "distance": 0.1725105196237564,
+      "pre_distance": 0.15366604179143906,
+      "message_tokens": 11.375,
+      "original_tokens": 28.375,
+      "mean_per_prompt_length_ratio": 0.3900266131138976,
+      "total_token_ratio": 0.4008810572687225,
+      "original_objective": 0.141875,
+      "exact_output_match_rate": 0.5
+    },
+    "validation@8": {
+      "n": 8,
+      "objective": 0.15462935596704483,
+      "distance": 0.06212935596704483,
+      "pre_distance": 0.06855537742376328,
+      "message_tokens": 18.5,
+      "original_tokens": 28.375,
+      "mean_per_prompt_length_ratio": 0.6576729036050156,
+      "total_token_ratio": 0.6519823788546255,
+      "original_objective": 0.141875,
+      "exact_output_match_rate": 0.625
+    }
+  }
+}

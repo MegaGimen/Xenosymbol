@@ -1,0 +1,276 @@
+{
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "embedding_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "embedding_pooling": "attention-mask mean, L2 normalize, query: prefix on both outputs",
+  "warning": "Descriptive correlations only; repeated task observations are not independent. No human semantic ratings collected.",
+  "embedding_truncated_texts": [],
+  "all": {
+    "n": 60,
+    "n_tasks": 24,
+    "pairs": {
+      "last_similarity__pre_similarity": {
+        "pearson": 0.5643683987214676,
+        "spearman": 0.686705123626531
+      },
+      "last_similarity__embedding_similarity": {
+        "pearson": 0.7916825381228478,
+        "spearman": 0.8188823662140985
+      },
+      "last_similarity__text_similarity": {
+        "pearson": 0.7609174877053697,
+        "spearman": 0.8165770016372607
+      },
+      "pre_similarity__embedding_similarity": {
+        "pearson": 0.7139220987823386,
+        "spearman": 0.6353126630581297
+      },
+      "pre_similarity__text_similarity": {
+        "pearson": 0.42739609897991676,
+        "spearman": 0.5227918063773616
+      },
+      "embedding_similarity__text_similarity": {
+        "pearson": 0.700652430725038,
+        "spearman": 0.8450295723384896
+      }
+    }
+  },
+  "non_control": {
+    "n": 52,
+    "n_tasks": 24,
+    "pairs": {
+      "last_similarity__pre_similarity": {
+        "pearson": 0.5353121605735159,
+        "spearman": 0.6211632562071203
+      },
+      "last_similarity__embedding_similarity": {
+        "pearson": 0.7983681448597606,
+        "spearman": 0.7803438556338311
+      },
+      "last_similarity__text_similarity": {
+        "pearson": 0.7479347724657377,
+        "spearman": 0.7962541587457458
+      },
+      "pre_similarity__embedding_similarity": {
+        "pearson": 0.5353839125780454,
+        "spearman": 0.4642304963699073
+      },
+      "pre_similarity__text_similarity": {
+        "pearson": 0.3558725135743468,
+        "spearman": 0.39649579761130876
+      },
+      "embedding_similarity__text_similarity": {
+        "pearson": 0.7181662012904996,
+        "spearman": 0.8430366306848346
+      }
+    }
+  },
+  "tool_comparison_note": "Posthoc only: same generated function names and arguments, not execution success or reward.",
+  "tool_call_match_by_phase": {
+    "control_empty": {
+      "comparable": 2,
+      "matching": 0
+    },
+    "control_mismatched": {
+      "comparable": 3,
+      "matching": 0
+    },
+    "test_best": {
+      "comparable": 3,
+      "matching": 1
+    },
+    "test_initial": {
+      "comparable": 3,
+      "matching": 1
+    },
+    "train": {
+      "comparable": 18,
+      "matching": 8
+    },
+    "validation": {
+      "comparable": 6,
+      "matching": 3
+    }
+  },
+  "by_phase": {
+    "control_empty": {
+      "n": 4,
+      "n_tasks": 4,
+      "pairs": {
+        "last_similarity__pre_similarity": {
+          "pearson": -0.13171908327451637,
+          "spearman": 0.0
+        },
+        "last_similarity__embedding_similarity": {
+          "pearson": 0.9182819797599053,
+          "spearman": 1.0
+        },
+        "last_similarity__text_similarity": {
+          "pearson": 0.30133855451600733,
+          "spearman": 0.0
+        },
+        "pre_similarity__embedding_similarity": {
+          "pearson": 0.12746887056380843,
+          "spearman": 0.0
+        },
+        "pre_similarity__text_similarity": {
+          "pearson": -0.9843587220078518,
+          "spearman": -1.0
+        },
+        "embedding_similarity__text_similarity": {
+          "pearson": 0.047794171209750234,
+          "spearman": 0.0
+        }
+      }
+    },
+    "control_mismatched": {
+      "n": 4,
+      "n_tasks": 4,
+      "pairs": {
+        "last_similarity__pre_similarity": {
+          "pearson": 0.7998903051627344,
+          "spearman": 1.0
+        },
+        "last_similarity__embedding_similarity": {
+          "pearson": 0.1599293121996765,
+          "spearman": 0.39999999999999997
+        },
+        "last_similarity__text_similarity": {
+          "pearson": 0.5756744218611498,
+          "spearman": 0.7999999999999999
+        },
+        "pre_similarity__embedding_similarity": {
+          "pearson": 0.7201128689097169,
+          "spearman": 0.39999999999999997
+        },
+        "pre_similarity__text_similarity": {
+          "pearson": 0.8792628579018191,
+          "spearman": 0.7999999999999999
+        },
+        "embedding_similarity__text_similarity": {
+          "pearson": 0.7924561774607958,
+          "spearman": 0.7999999999999999
+        }
+      }
+    },
+    "test_best": {
+      "n": 4,
+      "n_tasks": 4,
+      "pairs": {
+        "last_similarity__pre_similarity": {
+          "pearson": 0.27191027276077073,
+          "spearman": -0.6000000000000001
+        },
+        "last_similarity__embedding_similarity": {
+          "pearson": 0.9496716352493967,
+          "spearman": 0.7999999999999999
+        },
+        "last_similarity__text_similarity": {
+          "pearson": 0.951992269882077,
+          "spearman": 0.7999999999999999
+        },
+        "pre_similarity__embedding_similarity": {
+          "pearson": 0.21444968757623073,
+          "spearman": 0.0
+        },
+        "pre_similarity__text_similarity": {
+          "pearson": 0.32621337689006596,
+          "spearman": 0.0
+        },
+        "embedding_similarity__text_similarity": {
+          "pearson": 0.993258081229182,
+          "spearman": 1.0
+        }
+      }
+    },
+    "test_initial": {
+      "n": 4,
+      "n_tasks": 4,
+      "pairs": {
+        "last_similarity__pre_similarity": {
+          "pearson": 0.27191027276077073,
+          "spearman": -0.6000000000000001
+        },
+        "last_similarity__embedding_similarity": {
+          "pearson": 0.9496716352493967,
+          "spearman": 0.7999999999999999
+        },
+        "last_similarity__text_similarity": {
+          "pearson": 0.951992269882077,
+          "spearman": 0.7999999999999999
+        },
+        "pre_similarity__embedding_similarity": {
+          "pearson": 0.21444968757623073,
+          "spearman": 0.0
+        },
+        "pre_similarity__text_similarity": {
+          "pearson": 0.32621337689006596,
+          "spearman": 0.0
+        },
+        "embedding_similarity__text_similarity": {
+          "pearson": 0.993258081229182,
+          "spearman": 1.0
+        }
+      }
+    },
+    "train": {
+      "n": 32,
+      "n_tasks": 16,
+      "pairs": {
+        "last_similarity__pre_similarity": {
+          "pearson": 0.5446154309750468,
+          "spearman": 0.6417376985984632
+        },
+        "last_similarity__embedding_similarity": {
+          "pearson": 0.809800131044323,
+          "spearman": 0.7396194209317964
+        },
+        "last_similarity__text_similarity": {
+          "pearson": 0.7521762871036144,
+          "spearman": 0.7310924802393496
+        },
+        "pre_similarity__embedding_similarity": {
+          "pearson": 0.5186260243163815,
+          "spearman": 0.39757851186414617
+        },
+        "pre_similarity__text_similarity": {
+          "pearson": 0.35113067531914777,
+          "spearman": 0.5039701509364165
+        },
+        "embedding_similarity__text_similarity": {
+          "pearson": 0.7337665717579944,
+          "spearman": 0.8253045923149015
+        }
+      }
+    },
+    "validation": {
+      "n": 12,
+      "n_tasks": 4,
+      "pairs": {
+        "last_similarity__pre_similarity": {
+          "pearson": 0.6442960538015099,
+          "spearman": 0.5
+        },
+        "last_similarity__embedding_similarity": {
+          "pearson": 0.8575247579580628,
+          "spearman": 0.8125037776436338
+        },
+        "last_similarity__text_similarity": {
+          "pearson": 0.7320072963771388,
+          "spearman": 0.9269409294244272
+        },
+        "pre_similarity__embedding_similarity": {
+          "pearson": 0.7178889292483788,
+          "spearman": 0.52641089819165
+        },
+        "pre_similarity__text_similarity": {
+          "pearson": 0.009377808902485726,
+          "spearman": 0.29753659463006304
+        },
+        "embedding_similarity__text_similarity": {
+          "pearson": 0.42402163542776583,
+          "spearman": 0.7831325301204818
+        }
+      }
+    }
+  }
+}

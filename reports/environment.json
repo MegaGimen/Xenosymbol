@@ -1,0 +1,52 @@
+{
+  "python": "3.11.18 (main, Nov 11 2026, 00:16:37) [Clang 23.1.3 ]",
+  "packages": {
+    "torch": "2.15.0",
+    "transformers": "5.6.0",
+    "peft": "0.18.1",
+    "trl": "0.24.0",
+    "bitsandbytes": "0.50.2",
+    "llamafactory": "0.9.5",
+    "safetensors": "0.8.0",
+    "huggingface-hub": "1.33.0",
+    "scipy": "1.17.1"
+  },
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "gpu_total_bytes": 50867404800,
+  "cuda": "13.2",
+  "model_metadata_sha256": {
+    "config.json": "e00fb4bc715e4a1866c3d16fb29c7a08cc82fa37d64f284d40a48843187723e2",
+    "model.safetensors.index.json": "49fe673b3bef4b105818a9f4ddd5970f821fa8bca9358e3e3bc02295b8fe9821",
+    "tokenizer.json": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4",
+    "tokenizer_config.json": "bab2a783ece233e62239296193986e7bab7046dbede34432d666534e0ede9de7",
+    "generation_config.json": "2f2759bafb7d1662d9ee105187ff74151adcda39b4ac35774e31c82f8b42426b"
+  },
+  "weight_files": {
+    "model-00024-of-00026.safetensors": 91972226,
+    "model-00022-of-00026.safetensors": 91961876,
+    "model-00020-of-00026.safetensors": 91961873,
+    "model-00018-of-00026.safetensors": 91961860,
+    "model-00016-of-00026.safetensors": 90345864,
+    "model-00014-of-00026.safetensors": 62210866,
+    "model-00012-of-00026.safetensors": 91961884,
+    "model-00010-of-00026.safetensors": 91961876,
+    "model-00008-of-00026.safetensors": 63289094,
+    "model-00006-of-00026.safetensors": 91961884,
+    "model-00004-of-00026.safetensors": 91961884,
+    "model-00002-of-00026.safetensors": 2542796952,
+    "model-00025-of-00026.safetensors": 1067582127,
+    "model-00023-of-00026.safetensors": 1032219720,
+    "model-00021-of-00026.safetensors": 1054924282,
+    "model-00019-of-00026.safetensors": 1032219764,
+    "model-00017-of-00026.safetensors": 1048429326,
+    "model-00015-of-00026.safetensors": 1032199036,
+    "model-00013-of-00026.safetensors": 1070092180,
+    "model-00011-of-00026.safetensors": 1040341146,
+    "model-00009-of-00026.safetensors": 1064659300,
+    "model-00007-of-00026.safetensors": 1051147239,
+    "model-00005-of-00026.safetensors": 1032219759,
+    "model-00003-of-00026.safetensors": 1046802934,
+    "model-00001-of-00026.safetensors": 2542796928,
+    "model-00026-of-00026.safetensors": 849400424
+  }
+}

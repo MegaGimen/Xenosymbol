@@ -1,0 +1,102 @@
+{
+  "run": "runs/main-02",
+  "lambda": 0.005,
+  "groups": {
+    "test_best@24": {
+      "n": 8,
+      "objective": 0.16665427178144457,
+      "distance": 0.06727927178144455,
+      "pre_distance": 0.05742114782333374,
+      "message_tokens": 19.875,
+      "original_tokens": 31.875,
+      "mean_per_prompt_length_ratio": 0.6341700908730166,
+      "total_token_ratio": 0.6235294117647059,
+      "original_objective": 0.15937500000000002,
+      "exact_output_match_rate": 0.5
+    },
+    "test_initial@0": {
+      "n": 8,
+      "objective": 0.26795234203338625,
+      "distance": 0.16982734203338623,
+      "pre_distance": 0.13080985099077225,
+      "message_tokens": 19.625,
+      "original_tokens": 31.875,
+      "mean_per_prompt_length_ratio": 0.6038884675099979,
+      "total_token_ratio": 0.615686274509804,
+      "original_objective": 0.15937500000000002,
+      "exact_output_match_rate": 0.125
+    },
+    "validation@0": {
+      "n": 8,
+      "objective": 0.22938551962375642,
+      "distance": 0.1725105196237564,
+      "pre_distance": 0.15366604179143906,
+      "message_tokens": 11.375,
+      "original_tokens": 28.375,
+      "mean_per_prompt_length_ratio": 0.3900266131138976,
+      "total_token_ratio": 0.4008810572687225,
+      "original_objective": 0.141875,
+      "exact_output_match_rate": 0.5
+    },
+    "validation@8": {
+      "n": 8,
+      "objective": 0.1552549669146538,
+      "distance": 0.06212996691465378,
+      "pre_distance": 0.06846720725297928,
+      "message_tokens": 18.625,
+      "original_tokens": 28.375,
+      "mean_per_prompt_length_ratio": 0.6614607823928944,
+      "total_token_ratio": 0.6563876651982379,
+      "original_objective": 0.141875,
+      "exact_output_match_rate": 0.625
+    },
+    "validation@16": {
+      "n": 8,
+      "objective": 0.14292289346456527,
+      "distance": 0.04104789346456528,
+      "pre_distance": 0.052038878202438354,
+      "message_tokens": 20.375,
+      "original_tokens": 28.375,
+      "mean_per_prompt_length_ratio": 0.7218774490595611,
+      "total_token_ratio": 0.7180616740088106,
+      "original_objective": 0.141875,
+      "exact_output_match_rate": 0.75
+    },
+    "validation@24": {
+      "n": 8,
+      "objective": 0.1379685878753662,
+      "distance": 0.04109358787536621,
+      "pre_distance": 0.04912281036376953,
+      "message_tokens": 19.375,
+      "original_tokens": 28.375,
+      "mean_per_prompt_length_ratio": 0.6851840060083595,
+      "total_token_ratio": 0.6828193832599119,
+      "original_objective": 0.141875,
+      "exact_output_match_rate": 0.875
+    }
+  },
+  "paired_test": {
+    "reward": {
+      "mean_best_minus_initial": 0.10129807025194168,
+      "paired_bootstrap_95_percent_interval": [
+        0.04579685360193252,
+        0.15604818701744078
+      ]
+    },
+    "distance": {
+      "mean_best_minus_initial": -0.10254807025194168,
+      "paired_bootstrap_95_percent_interval": [
+        -0.16317669302225113,
+        -0.04280099272727966
+      ]
+    },
+    "length": {
+      "mean_best_minus_initial": 0.25,
+      "paired_bootstrap_95_percent_interval": [
+        -7.5,
+        8
+      ]
+    }
+  },
+  "uncertainty_note": "Only eight pilot test tasks; intervals are exploratory, not evidence of broad language generalization."
+}

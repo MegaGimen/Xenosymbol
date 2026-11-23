@@ -1,0 +1,159 @@
+{
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "embedding_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "embedding_pooling": "attention-mask mean, L2 normalize, query: prefix on both outputs",
+  "warning": "Descriptive correlations only; repeated task observations are not independent. No human semantic ratings collected.",
+  "embedding_truncated_texts": [],
+  "all": {
+    "n": 144,
+    "n_tasks": 40,
+    "pairs": {
+      "last_similarity__pre_similarity": {
+        "pearson": 0.8541609524568099,
+        "spearman": 0.8004706487597743
+      },
+      "last_similarity__embedding_similarity": {
+        "pearson": 0.8397170768738706,
+        "spearman": 0.6802395977693746
+      },
+      "last_similarity__text_similarity": {
+        "pearson": 0.8430959334925461,
+        "spearman": 0.7740174705039147
+      },
+      "pre_similarity__embedding_similarity": {
+        "pearson": 0.700534032022094,
+        "spearman": 0.5127244133038905
+      },
+      "pre_similarity__text_similarity": {
+        "pearson": 0.7304342626476742,
+        "spearman": 0.6085320860433986
+      },
+      "embedding_similarity__text_similarity": {
+        "pearson": 0.9273596988010657,
+        "spearman": 0.8620525430928413
+      }
+    }
+  },
+  "by_phase": {
+    "test_best": {
+      "n": 8,
+      "n_tasks": 8,
+      "pairs": {
+        "last_similarity__pre_similarity": {
+          "pearson": 0.562338958850263,
+          "spearman": 0.6428571428571429
+        },
+        "last_similarity__embedding_similarity": {
+          "pearson": 0.7560639287012751,
+          "spearman": 0.7563225565351133
+        },
+        "last_similarity__text_similarity": {
+          "pearson": 0.7525421700311075,
+          "spearman": 0.9132233209773138
+        },
+        "pre_similarity__embedding_similarity": {
+          "pearson": 0.5193961181591599,
+          "spearman": 0.26837252006084666
+        },
+        "pre_similarity__text_similarity": {
+          "pearson": 0.7319697772702887,
+          "spearman": 0.49466263219604506
+        },
+        "embedding_similarity__text_similarity": {
+          "pearson": 0.8843040463446741,
+          "spearman": 0.9357754408380654
+        }
+      }
+    },
+    "test_initial": {
+      "n": 8,
+      "n_tasks": 8,
+      "pairs": {
+        "last_similarity__pre_similarity": {
+          "pearson": 0.7973296322981989,
+          "spearman": 0.9285714285714287
+        },
+        "last_similarity__embedding_similarity": {
+          "pearson": 0.7761385467821367,
+          "spearman": 0.7619047619047621
+        },
+        "last_similarity__text_similarity": {
+          "pearson": 0.8510447282441711,
+          "spearman": 0.9047619047619048
+        },
+        "pre_similarity__embedding_similarity": {
+          "pearson": 0.5570613765307382,
+          "spearman": 0.5714285714285715
+        },
+        "pre_similarity__text_similarity": {
+          "pearson": 0.8467122197319539,
+          "spearman": 0.7857142857142858
+        },
+        "embedding_similarity__text_similarity": {
+          "pearson": 0.8897781849887401,
+          "spearman": 0.9047619047619048
+        }
+      }
+    },
+    "train": {
+      "n": 96,
+      "n_tasks": 24,
+      "pairs": {
+        "last_similarity__pre_similarity": {
+          "pearson": 0.828418652951759,
+          "spearman": 0.7261578533250128
+        },
+        "last_similarity__embedding_similarity": {
+          "pearson": 0.8611648262600907,
+          "spearman": 0.6291279876612454
+        },
+        "last_similarity__text_similarity": {
+          "pearson": 0.8660501002170127,
+          "spearman": 0.753703530462296
+        },
+        "pre_similarity__embedding_similarity": {
+          "pearson": 0.7194373841379278,
+          "spearman": 0.42407957831898313
+        },
+        "pre_similarity__text_similarity": {
+          "pearson": 0.7419929506909642,
+          "spearman": 0.5752154374546579
+        },
+        "embedding_similarity__text_similarity": {
+          "pearson": 0.9321220996986893,
+          "spearman": 0.8359505812197082
+        }
+      }
+    },
+    "validation": {
+      "n": 32,
+      "n_tasks": 8,
+      "pairs": {
+        "last_similarity__pre_similarity": {
+          "pearson": 0.9547652469898686,
+          "spearman": 0.759146902004045
+        },
+        "last_similarity__embedding_similarity": {
+          "pearson": 0.7963810968512872,
+          "spearman": 0.7317963352262437
+        },
+        "last_similarity__text_similarity": {
+          "pearson": 0.7904675266272514,
+          "spearman": 0.5867717345137295
+        },
+        "pre_similarity__embedding_similarity": {
+          "pearson": 0.694925666131589,
+          "spearman": 0.656461504218607
+        },
+        "pre_similarity__text_similarity": {
+          "pearson": 0.6535930845863167,
+          "spearman": 0.5722310701052689
+        },
+        "embedding_similarity__text_similarity": {
+          "pearson": 0.9535098087505993,
+          "spearman": 0.8603872929611441
+        }
+      }
+    }
+  }
+}

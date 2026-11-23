@@ -1,0 +1,8 @@
+{"id": "test-000", "prompt": "Add 46 to 28, then divide the sum by 2. Give only the final number, without showing intermediate calculations or including any other text."}
+{"id": "test-001", "prompt": "Take [6, 11, 2, 11, 8], keep only values larger than 5, and sort those values in descending order while retaining duplicates. Return only the resulting list."}
+{"id": "test-002", "prompt": "Translate the sentence \"I need some water\" into German. Output the translation only, without a preface, quotation marks, or explanation."}
+{"id": "test-003", "prompt": "Produce a JSON object containing the key items with the array [2, 4] as its value and the key ready with the boolean false as its value. Output JSON only."}
+{"id": "test-004", "prompt": "请将字符串 \"pYtHoN\" 全部转换为大写，然后反转字符顺序。只输出最终字符串，不加引号，不解释。"}
+{"id": "test-005", "prompt": "请将三小时四十分钟转换为总分钟数，再减去二十分钟。只输出最终数字，不要单位或过程。"}
+{"id": "test-006", "prompt": "Write a Python function named is_even that returns whether an integer is divisible by two. Return only the function definition, without a code fence or explanation."}
+{"id": "test-007", "prompt": "Extract the domain from \"research@sample.net\" and convert it to uppercase. Output only the domain, excluding the at sign and username."}

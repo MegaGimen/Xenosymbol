@@ -1,0 +1,24 @@
+{"id": "train-000", "prompt": "Please calculate the sum of the numbers 17, 24, and 39. Return only the final numerical result, without showing your working or adding any explanation."}
+{"id": "train-001", "prompt": "Take the list [9, 3, 7, 3, 1] and sort its elements into ascending order. Keep duplicate values. Respond with the resulting list only."}
+{"id": "train-002", "prompt": "Translate the English sentence \"The window is open\" into French. Provide the translation alone, without a preface or commentary."}
+{"id": "train-003", "prompt": "From the words apple, river, pear, mountain, peach, select only the names of fruits. Keep their original order and separate them with commas. Output nothing else."}
+{"id": "train-004", "prompt": "Rewrite this sentence in the past tense: \"She walks to the station.\" Preserve the rest of its meaning and return just the rewritten sentence."}
+{"id": "train-005", "prompt": "Write a Python function named square that accepts one number and returns its square. Include only the function definition, without a markdown code fence or explanation."}
+{"id": "train-006", "prompt": "Given the string \"stressed\", reverse the order of its characters. Output the reversed string alone, with no quotation marks."}
+{"id": "train-007", "prompt": "Convert 2 hours and 15 minutes into a total number of minutes. Answer with the number alone and do not include the unit."}
+{"id": "train-008", "prompt": "Classify the sentiment of \"I absolutely loved the concert\" as positive, negative, or neutral. Return exactly one of those labels in lowercase."}
+{"id": "train-009", "prompt": "Create a JSON object with the key name set to Mira and the key age set to the integer 31. Output valid JSON only, with no surrounding markdown."}
+{"id": "train-010", "prompt": "Find the largest number in [12, -8, 43, 6, 29]. Reply with that number alone; do not explain how you found it."}
+{"id": "train-011", "prompt": "Give the chemical symbol for the element oxygen. Return only the symbol, preserving its standard capitalization."}
+{"id": "train-012", "prompt": "Please remove all vowels from the lowercase word \"education\". Treat a, e, i, o, and u as vowels. Return only the remaining letters in their original order."}
+{"id": "train-013", "prompt": "Determine whether the integer 29 is prime. Answer using only yes or no, written in lowercase."}
+{"id": "train-014", "prompt": "Format the date March 5, 2024 as an ISO date with a four-digit year, two-digit month, and two-digit day, separated by hyphens. Return just the date."}
+{"id": "train-015", "prompt": "Extract the email address from this text: \"Please contact ada@example.org before Friday.\" Return the address only, without punctuation or commentary."}
+{"id": "train-016", "prompt": "请将数字列表 [8, 2, 5, 2] 按从小到大的顺序排列，重复的数字必须保留。只输出排序后的列表，不要解释过程。"}
+{"id": "train-017", "prompt": "请把英文单词 \"library\" 翻译成中文，使用表示借阅书籍场所的常见译法。只输出译文，不添加解释。"}
+{"id": "train-018", "prompt": "请计算长方形的面积，它的长是 12，宽是 7。只输出面积的数值，不写单位和计算过程。"}
+{"id": "train-019", "prompt": "请把字符串 \"Hello World\" 的所有英文字母转为小写，保留空格。只输出转换后的字符串，不加引号。"}
+{"id": "train-020", "prompt": "请从列表 [4, 9, 12, 15, 18] 中筛选出所有偶数，保持原来的顺序。只输出筛选后的列表。"}
+{"id": "train-021", "prompt": "请用一句不超过二十个汉字的话解释什么是蒸发。直接给出解释，不要添加标题或其他段落。"}
+{"id": "train-022", "prompt": "请输出一个 JSON 对象，键 city 的值为 Beijing，键 count 的值为数字 3。只输出合法 JSON，不使用代码块。"}
+{"id": "train-023", "prompt": "请将这句话改为否定句：“他每天喝咖啡。”保持主语和时间信息不变，只输出改写后的句子。"}

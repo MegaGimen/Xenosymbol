@@ -1,0 +1,29 @@
+{
+  "baseline_validation": {
+    "reward": -0.22938551962375642,
+    "distance": 0.1725105196237564,
+    "pre_distance": 0.15366604179143906,
+    "length": 11.375,
+    "length_ratio": 0.39002661311389764,
+    "exact_output_match": 0.5
+  },
+  "best_validation_reward": -0.1379685878753662,
+  "best_step": 24,
+  "receiver_frozen_max_abs_error": 0.0,
+  "test_initial": {
+    "reward": -0.2679523420333862,
+    "distance": 0.16982734203338623,
+    "pre_distance": 0.13080985099077225,
+    "length": 19.625,
+    "length_ratio": 0.6038884675099978,
+    "exact_output_match": 0.125
+  },
+  "test_best": {
+    "reward": -0.16665427178144457,
+    "distance": 0.06727927178144455,
+    "pre_distance": 0.05742114782333374,
+    "length": 19.875,
+    "length_ratio": 0.6341700908730166,
+    "exact_output_match": 0.5
+  }
+}

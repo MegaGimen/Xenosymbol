@@ -1,0 +1,8 @@
+{"id": "validation-000", "prompt": "Multiply 13 by 7, then subtract 5 from the product. Respond with only the resulting integer, with no explanation or additional text."}
+{"id": "validation-001", "prompt": "Sort the words zebra, apple, lemon alphabetically, then join them with semicolons and no spaces. Output only that joined string."}
+{"id": "validation-002", "prompt": "Translate \"Good evening\" into Spanish. Give only the standard translation, without commentary or quotation marks."}
+{"id": "validation-003", "prompt": "Create valid JSON with a boolean key active set to true and an integer key score set to 8. Output only the JSON object, without a code fence."}
+{"id": "validation-004", "prompt": "请从字符串 \"a1b2c3\" 中提取所有数字，按出现顺序连接。只输出结果，不加引号和说明。"}
+{"id": "validation-005", "prompt": "请计算 81 除以 9 的结果，然后加上 4。只输出最终数值，不要写计算过程或单位。"}
+{"id": "validation-006", "prompt": "Write a Python function named double that returns its argument multiplied by two. Output just the function definition without markdown or explanation."}
+{"id": "validation-007", "prompt": "From [7, 2, 7, 4, 2], remove repeated values while preserving the order of first appearance. Return the resulting list only."}
