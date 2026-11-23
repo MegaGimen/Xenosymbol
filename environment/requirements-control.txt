@@ -1,0 +1,3 @@
+# Only for the machine running scripts/remote.py; no torch/CUDA needed there.
+pexpect==4.8.0
+ptyprocess==0.7.0

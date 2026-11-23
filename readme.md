@@ -26,6 +26,8 @@
 
 ## 环境与运行
 
+安装所需的版本和 GPU 自检命令见 [环境配置清单](environment/README.md)。项目根目录的 [requirements.txt](requirements.txt) 是安装入口；远端完整依赖快照和实测检查结果也已保存。
+
 远端目录 `/workspace/latent-protocol`，Python `/opt/venv311/bin/python`。连接仅使用用户提供的交互 SSH + PTY；上传使用 shell 中的 base64 数据，不使用远端 exec/scp。
 
 已实测远端 PyTorch 2.15.0+cu132、Transformers 5.6.0、PEFT 0.18.1、TRL 0.24.0。27B NF4 模型生成与 LoRA 反向传播峰值约 17.2GiB，GPU 为 RTX 6000 Ada 48GB。LLaMA Factory 已安装，其 PPO 路径主要接 value-head/reward API；本实验的奖励还要运行冻结接收者并抓中间层，因此使用独立的小型 RL 循环，便于核对精确奖励和状态索引。
